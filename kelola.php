@@ -61,14 +61,14 @@ if (isset($_GET['ubah']))
             <div class="mb-3 row">
                 <label for="Nim" class="col-sm-2 col-form-label">NIM</label>
                 <div class="col-sm-10">
-                    <input type="text" name="nim" class="form-control" id="Nim" placeholder="Input NIM Anda !" required value="<?php echo $nim; ?>">
+                    <input type="text" name="nim" class="form-control" id="Nim" placeholder="masukkan NIM" required value="<?php echo $nim; ?>">
                 </div>
             </div>
 
             <div class="mb-3 row">
                 <label for="Namamhs" class="col-sm-2 col-form-label">Nama Mahasiswa</label>
                 <div class="col-sm-10">
-                    <input type="text" name="namamhs" class="form-control" id="Namamhs" placeholder="Input nama Anda !" required value="<?php echo $namamhs; ?>">
+                    <input type="text" name="namamhs" class="form-control" id="Namamhs" placeholder="masukkan nama  !" required value="<?php echo $namamhs; ?>">
                 </div>
             </div>
 
@@ -91,21 +91,21 @@ if (isset($_GET['ubah']))
             <div class="mb-3 row">
                 <label for="Alamat" class="col-sm-2 col-form-label">Alamat</label>
                 <div class="col-sm-10">
-                    <input type="text"  name="alamat" class="form-control" id="Alamat" placeholder="Input alamat Anda !" required value="<?php echo $alamat; ?>">
+                    <input type="text"  name="alamat" class="form-control" id="Alamat" placeholder="masukkan alamat " required value="<?php echo $alamat; ?>">
                 </div>
             </div>
 
             <div class="mb-3 row">
                 <label for="Kota" class="col-sm-2 col-form-label">Kota</label>
                 <div class="col-sm-10">
-                    <input type="text" name="kota" class="form-control" id="Kota" placeholder="Input kota Anda!" required value="<?php echo $kota; ?>">
+                    <input type="text" name="kota" class="form-control" id="Kota" placeholder="masukkan kota " required value="<?php echo $kota; ?>">
                 </div>
             </div>
 
             <div class="mb-3 row">
                 <label for="Email" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
-                  <input type="email" name="email" class="form-control" id="Email" placeholder="Input email Anda !" required value="<?php echo $email; ?>">
+                  <input type="email" name="email" class="form-control" id="Email" placeholder="masukkan email !" required value="<?php echo $email; ?>">
                 </div>
             </div>
 
